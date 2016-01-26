@@ -24,7 +24,7 @@ int main(){
   const double xmax = 20.0;
   const double dx = (xmax-xmin)/(N-1) ;
 
-  double dt = dx*dx/(2*D);
+  double dt = dx*dx/(2.0*D);
   double t = 0;
   const int Na = 10;
   const int Nk = int(tEnd/Na/dt);
